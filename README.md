@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Anharfeb.css">
+</head>
+<body>
+ 
+    <div class="nav-top">
+
+            <nav>
+                <div class="nav-container">
+                    <a href="#" class="logo">ye ye ye</a>
+                    <ul class="nav-menu">
+                        <li><a href="#Hem" class="active">Hem</a></li>
+                        <li><a href="#om">Om mig</a></li>
+                        <li><a href="#projekt">projekt</a></li>
+                    </ul>
+                </div>
+            </nav>
+           
+        </nav>
+    </div>
+   
+    <section class="hero-header">
+        <div class="hero-content">
+            <h1 class="hero-title">Hej Anhar</h1>
+            <p class="hero-subtitle">hej välkommen till min hemsida
+            </p>
+ 
+            <div class="hero-buttons">
+                <a href="#projekt" class="btn btn-primary">Se Projekt</a>
+                <a href="#kontakt" class="btn btn-secondary">Kontakta kundtjänst</a>
+               
+            </div>
+ 
+        </div>
+ 
+    </section>
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- jag tänker ha en nav där den går högstup från kant till kant  -->
+<!-- med en mörk färg med mina texter och länkar  -->
+<!-- Den här koden skapar en enkel och responsiv webbplats med en navigationsmeny och en hero-sektion. HTML används för att bygga strukturen och CSS för design, färger och layout. Webbplatsen är anpassad för både dator och mobil och har en modern stil med knappar och hover-effekter. -->
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
+ 
