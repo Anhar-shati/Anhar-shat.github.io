@@ -331,7 +331,7 @@ nav {
 .card-image{
     width: 100%;
     height: 200px;
-    background-image: linear-gradient(135deg, #0a1aff 0%, #000000 100%);
+    background-image: linear-gradient(135deg, #2c5037, 0%, #226105 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -345,7 +345,7 @@ nav {
 }
  
 .card-title{
-    color: #2c3e50;
+    color: #2c5037;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
@@ -366,7 +366,7 @@ nav {
  
 .tag{
     background-color: #ecf0f1;
-    color: #2c3e50;
+    color: #2c5037;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.8rem;
@@ -383,3 +383,4 @@ nav {
         text-align: center;
     }
 }
+
