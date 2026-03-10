@@ -87,7 +87,10 @@
 
             <!-- Projekt 1 -->
             <div class="project-card">
-                <div class="card-image">🧑‍💻</div>
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1568204960342-8612e15f9d1e?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                     alt="detta är en orm som ">
+                </div>
                 <div class="card-content">
                     <h3 class="card-title">Retro Snake</h3>
                     <p class="card-description">Ett klassiskt snake-spel byggt med JavaScript.</p>
@@ -107,9 +110,19 @@
                 </div>
             </div>
 
+<!-- UPPHOVSRÄTTSANALYS
+   Innehåll: en fin bild på en brun orm 
+   Källa: https://unsplash.com/
+   Licens:Free to use under the Unsplash License
+   Innebär: Fri att använda, inget krav på att ange källa
+   Använder jag den? Ja
+-->
             <!-- Projekt 2 -->
             <div class="project-card">
-                <div class="card-image">🎮</div>
+                <div class="card-image">
+                <img src="https://plus.unsplash.com/premium_photo-1674266467222-ec27f7b815d5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                 alt="en fin orm som är en uppgradering av den första ormen">
+                 </div>
                 <div class="card-content">
                     <h3 class="card-title">Snake v2</h3>
                     <p class="card-description">En förbättrad version av snake-spelet.</p>
@@ -128,10 +141,19 @@
                     </div>
                 </div>
             </div>
-
+<!-- UPPHOVSRÄTTSANALYS
+   Innehåll: Bakgrundsbild på en grön orm
+   Källa: https://unsplash.com/
+   Licens: Licensed under the Unsplash
+   Innebär: Fri att använda, inget krav på att ange källa
+   Använder jag den? Ja
+-->
             <!-- Projekt 3 -->
             <div class="project-card">
-                <div class="card-image">🚀</div>
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1772528205622-c525adf905ed?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    alt="tangenter där varje tangent har text på sig">
+                </div>
                 <div class="card-content">
                     <h3 class="card-title">Övningsprojekt</h3>
                     <p class="card-description">Ett projekt för att träna på struktur och design.</p>
@@ -151,7 +173,13 @@
                 </div>
             </div>
 
-
+<!-- UPPHOVSRÄTTSANALYS
+   Innehåll: den är ett litet tangentbord med text på tangenterna
+   Källa: https://unsplash.com/
+   Licens: Free to use under the Unsplash License
+   Innebär: Fri att använda, inget krav på att ange källa
+   Använder jag den? Ja
+-->
             
     </script>
         </div>
@@ -159,22 +187,9 @@
 
 </main>
 
-<script>
-        function toggleLike(projectId) {
-            const button = document.querySelector(`#heart-${projectId}`).parentNode
-            const heart = document.querySelector(`#heart-${projectId}`)
- 
-            if (button.classList.contains('liked')) {
-                button.classList.remove('liked')
-                heart.textContent = "🤍"
-                console.log ("unlike")
-            } else {
-                button.classList.add ('liked')
-                heart.textContent = "❤️"
-                console.log("like")
-            }
-        }
-        <fooster>
+
+        
+        <footer>
         <div class="footer-container">
             <div class="footer-grid">
 
@@ -206,15 +221,29 @@
                                     <p>🗾 Löberöd,sverige</p>
                                     </div>
                                     <div class="footer-bottom">
-                                        <p>&copy; 2025 Anhar Shati rättigheter förbehållna.<p>
+                                        <p> &copy; 2025 Anhar Shati rättigheter förbehållna.<p>
                                             <P>Skapad med kärlek och mycket slit<P>
                                             
                                                 </div>
                                                 </div>
 
 
-
-        
+</footer>
+<script>
+    function toggleLike(projectId) {
+            const button = document.querySelector(`#heart-${projectId}`).parentNode
+            const heart = document.querySelector(`#heart-${projectId}`)
+ 
+            if (button.classList.contains('liked')) {
+                button.classList.remove('liked')
+                heart.textContent = "🤍"
+                console.log ("unlike")
+            } else {
+                button.classList.add ('liked')
+                heart.textContent = "❤️"
+                console.log("like")
+            }
+        }    
 </script>
 </body>
 </html>
